@@ -175,7 +175,7 @@ Toolkit.run(
         tools.log.debug("Something went wrong");
         return tools.exit.failure(err);
       }
-      tools.exit.success("Wrote to README");
+      tools.exit.success("Wrote to README, using td master");
     }
 
     const oldContent = readmeContent.slice(startIdx + 1, endIdx).join("\n");
